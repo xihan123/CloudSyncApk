@@ -12,11 +12,13 @@
 
 # 服务端
 
-* 需要 **JDK11** 及以上
+* 需要 **JDK11** 或以上
 
 * 需要 [aapt](https://androidaapt.com/)、[7z](https://7-zip.org/) 工具
 
 * 拉取源码后修改下图改成自己的配置
+
+  ![s-0](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/s-0.png)
 
 ## Windows
 
@@ -31,7 +33,10 @@
       Windows 配置好 "Java环境变量" 可直接运行 "server.bat"
       如需部署到服务器 把整个 "install" 打包移动
       具体如图
-    
+
+  ![s-1](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/s-1.png)
+  ![s-3](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/s-3.png)
+
 * 方法2
 
         第一步:构建 -> 构建工件 -> server 
@@ -40,17 +45,19 @@
       运行即可
       具体如图
 
+  ![s-2](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/s-2.png)
+  ![s-4](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/s-4.png)
 
 ## Linux
 
 * 下载网盘内或者上述链接中的aapt并移到 **/usr/bin** 授予 **777** 权限
 
 
-* 方法如同 **Windows** 方法1一样
+* 方法如1同 **Windows** 方法1一样
 
         CloudSyncApk\server\build\install\server\bin 无后缀的脚本
 
-* 方法如同 **Windows** 方法2一样
+* 方法2如同 **Windows** 方法2一样
 
 ##  Debian
 
@@ -77,7 +84,7 @@
 
       5.java -version
 
-* 安装 **7z** 
+* 安装 **7z**
 
         pkg install p7zip
 
@@ -89,15 +96,23 @@
 
 # 客户端
 
+* 修改下图为自己的配置
+
+  ![c-1](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/c-1.png)
+
 ## Windows
 
 * 如图执行编译出exe、msi等安装包，安装后使用，具体如图
 
-## Android 
+![d-1](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/d-1.png)
+
+## Android
 
 * 如图可切换调试并执行编译出apk 安装后使用
 
-## Linux 
+![a-1](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/a-1.png)
+
+## Linux
 
 * 这个和 **Windows** 一致 只不过包是 deb
 
@@ -105,8 +120,10 @@
 
 # 截图
 
+![d-2](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/d-2.png)
+![d-3](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/d-3.png)
 
-
-
-
+![a-2](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/a-2.png)
+![a-3](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/a-3.png)
+![a-4](https://raw.fastgit.org/xihan123/CloudSyncApk/master/Screenshots/a-4.png)
 
