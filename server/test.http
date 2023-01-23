@@ -1,0 +1,24 @@
+### 测试上传
+POST http://0.0.0.0:8080/upload
+Content-Type: application/octet-stream
+
+< ./com.qidian.QDReader_7.9.266_860.apk
+
+### 测试分页获取应用信息
+GET http://0.0.0.0:8080/appInfoList?page=0&size=10
+Content-Type: application/json
+
+### 测试参数搜索应用信息
+GET http://0.0.0.0:8080/appInfoList?param=didi
+Content-Type: application/json
+
+### 测试获取更新应用信息
+POST http://0.0.0.0:8080/update?contentLength=8485
+Content-Type: application/octet-stream
+
+< ./appInfoList.txt
+
+### 测试下载应用
+GET http://0.0.0.0:8080/download?packageName=com.qidian.QDReader&versionCode=860
+Content-Type: application/octet-stream
+
